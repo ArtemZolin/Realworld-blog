@@ -1,1 +1,1 @@
-https://blog-iota-self-57.vercel.app/
+https://blog-anfky2fb2-artems-projects-edc5efdb.vercel.app/
