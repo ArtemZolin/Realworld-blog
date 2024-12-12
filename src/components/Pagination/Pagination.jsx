@@ -14,7 +14,11 @@ export default function Pagination() {
   }
   return (
     <div className="article-pagination">
-      <AntdPagination defaultCurrent={page} defaultPageSize="5" total={25} onChange={onChangePage} />
+      <AntdPagination 
+        defaultCurrent={page} 
+        pageSize={5}
+        total={500} 
+        onChange={onChangePage} />
     </div>
   )
 }

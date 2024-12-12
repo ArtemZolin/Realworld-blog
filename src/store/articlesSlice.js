@@ -1,7 +1,7 @@
 /* eslint-disable no-param-reassign */
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
 
-const apiBase = 'https://blog-platform.kata.academy/api'
+const apiBase = 'https://blog-platform.kata.academy/api/'
 
 export const fetchArticles = createAsyncThunk('articles/fetchArticles', async (pageNumber, { rejectWithValue }) => {
   try {
